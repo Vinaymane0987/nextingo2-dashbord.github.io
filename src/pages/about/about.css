@@ -1,0 +1,585 @@
+.about__Container {
+  margin-top: 5rem;
+  padding: 0 3rem;
+}
+
+.about__first {
+  display: flex;
+}
+
+.imags {
+  width: 110%;
+  height: 130%;
+}
+
+.imagsss {
+  width: 100%;
+  height: 110%;
+}
+
+.about__box {
+  position: absolute;
+  padding: 2rem 2rem;
+  bottom: 20%;
+  right: 23%;
+  width: 23%;
+  height: 35%;
+  background-color: black;
+}
+
+.about__box > h3 {
+  color: white;
+  font-weight: 400;
+  font-size: 38px;
+}
+
+.about__box > p {
+  /* margin-top: 1rem; */
+  color: white;
+}
+
+.about__second {
+  padding: 3rem;
+}
+
+.about__second_first {
+  margin-top: 13rem;
+  text-align: center;
+}
+
+.about__second_first > p {
+  text-align: center;
+}
+
+.about__third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.about__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.icon {
+  color: rgb(108, 108, 16);
+  font-size: 50px;
+  padding-right: 5px;
+  margin-right: 0.5rem;
+}
+
+.about__fourth {
+  display: flex;
+  background: rgb(247, 245, 245);
+  padding: 3rem 2rem 2rem;
+  margin-right: -3rem;
+  margin-left: -3rem;
+}
+
+.about__journey {
+  padding: 3rem;
+  width: 50%;
+  margin-left: 3rem;
+}
+
+.about__journey > h2 {
+  margin-top: 0.5rem;
+}
+
+.about__journey-right {
+  padding: 3rem;
+  margin-left: 3rem;
+}
+
+.about__journey-right > button {
+  margin-top: 1rem;
+  font-size: 12px;
+}
+
+.aboutImage {
+  width: 103.6%;
+  height: 103.6%;
+}
+
+.about__mission {
+  width: 100%;
+  display: flex;
+  padding: 6.5rem;
+}
+
+.about__mission_left {
+  padding: 3rem;
+  width: 80%;
+}
+
+.about__mission_left > h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.about__mission_left > p {
+  text-align: justify;
+  width: 100%;
+}
+
+.about__mission_left > button {
+  margin-top: 4rem;
+}
+
+.about__mission_right {
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+
+.about__grid_imges {
+  padding: 4rem;
+  display: grid;
+  cursor: pointer;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 20px;
+}
+
+.about__grid_imges img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.about__grid_imges img:hover {
+  transform: scale(1.1);
+}
+
+.about__sustainability {
+  padding: 5rem;
+  text-align: center;
+}
+
+.about__sustainability > h2 {
+  font-weight: 400;
+}
+
+.about__sustainability > p {
+  text-align: center;
+}
+
+.about__sustainability > button {
+  margin-top: 3rem;
+}
+
+.about__bussiness {
+  padding: 5rem;
+  background: black;
+  text-align: center;
+}
+
+.about__bussiness > h2 {
+  color: white;
+  font-weight: 300;
+}
+
+.about__bussiness > p {
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.about_bussi_span {
+  margin-top: 0.3rem;
+}
+
+.about__bussiness > button {
+  margin-top: 3rem;
+}
+
+/* .about__business_secon {
+  display: grid;
+  padding: 4rem;
+  cursor: pointer;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 20px;
+}
+
+.about__business_secon img {
+  max-width: 100%;
+  border-radius: 1%;
+  height: auto;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.about__business_secon img:hover {
+  filter: grayscale(50%);
+  box-shadow: 0px 0px 15px 5px rgba(125, 113, 113, 0.5);
+} */
+
+@media screen and (max-width: 1024px) {
+  .about__box {
+    bottom: 70%;
+    left: 40%;
+    width: 50%;
+    height: 20%;
+  }
+
+  .about__second {
+    margin-top: -5rem;
+  }
+  .about__third {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__fourth {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__journey {
+    width: 90%;
+  }
+
+  .about__mission {
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__mission_left {
+    width: 100%;
+  }
+
+  .about__grid_imges {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .about__business_secon {
+    display: grid;
+    padding: 4rem;
+    cursor: pointer;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+  } */
+}
+
+@media screen and (max-width: 600px) {
+  .imags {
+    height: 250%;
+  }
+
+  .imagsss {
+    height: 200%;
+  }
+  .about__box {
+    bottom: 60%;
+    padding: 2rem;
+    left: 40%;
+    width: 52%;
+    height: 25%;
+  }
+
+  .about__box > h3 {
+    font-size: 15px;
+    margin-top: -1rem;
+  }
+
+  .about__box > span {
+    font-size: 8px;
+  }
+
+  .about__box > p {
+    margin-top: 0.5rem;
+    font-size: 10px;
+  }
+
+  .about__second {
+    margin-top: -3rem;
+    width: 110%;
+    margin-left: -1rem;
+  }
+
+  .about__second_first {
+    margin-left: -2rem;
+    width: 130%;
+  }
+
+  .about__second_first > p {
+    text-align: justify;
+    font-size: 13px;
+  }
+  .about__third {
+    display: flex;
+    width: 130%;
+    margin-left: -2rem;
+    flex-direction: column;
+  }
+
+  .about__fourth {
+    margin-top: 1rem;
+    margin-left: -2.5rem;
+    width: 135%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__journey {
+    width: 110%;
+    margin-left: -1rem;
+  }
+
+  .about__journey > h2 {
+    margin-top: -2rem;
+    font-size: 20px;
+  }
+
+  .about__journey > p {
+    font-size: 13px;
+    width: 145%;
+    margin-left: -3rem;
+    text-align: justify;
+  }
+
+  .about__journey-right {
+    width: 120%;
+    margin-left: -2rem;
+  }
+
+  .about__mission {
+    margin-top: -7rem;
+    margin-left: -6rem;
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__mission_right {
+    width: 130%;
+    height: 90%;
+    margin-left: -2rem;
+  }
+
+  .about__mission_right > img {
+    width: 170%;
+    margin-left: -3rem;
+  }
+
+  .aboutImage {
+    width: 135%;
+    margin-left: -2.5rem;
+  }
+
+  .about__mission_right {
+    width: 120%;
+  }
+
+  .about__mission_left {
+    width: 110%;
+    margin-left: -3rem;
+  }
+
+  .about__mission {
+    width: 120%;
+    margin-left: -3rem;
+  }
+
+  .about__mission_left {
+    width: 200%;
+    margin-left: -4.5rem;
+  }
+
+  .about__mission_left > p {
+    width: 130%;
+    margin-left: -2.2rem;
+  }
+
+  .about__mission_left > button {
+    margin-left: -1rem;
+  }
+
+  .about__grid {
+    width: 120%;
+    margin-left: -2rem;
+  }
+
+  .about__grid_imges {
+    margin-top: -5rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .about__Imagess {
+    width: 120%;
+    margin-left: -2rem;
+  }
+
+  .about__sustainability {
+    width: 120%;
+    margin-left: -2rem;
+  }
+
+  .about__sustainability > h2 {
+    font-size: 25px;
+  }
+
+  .about__sustainability > p {
+    margin-left: -3.5rem;
+    width: 150%;
+  }
+
+  .about__bussiness {
+    margin-left: -2rem;
+    width: 120%;
+  }
+
+  .about__bussiness > h2 {
+    font-size: 23px;
+  }
+
+  .about__bussiness > p {
+    width: 150%;
+    margin-left: -3rem;
+    font-size: 12px;
+  }
+
+  /* .about__business_secon {
+    display: grid;
+    width: 120%;
+    margin-left: -2rem;
+    padding: 4rem;
+    cursor: pointer;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 20px;
+  } */
+}
+
+@media screen and (max-width: 360px) {
+  .about__Container {
+    width: 95%;
+    margin-left: 0rem;
+  }
+  .about__first {
+    width: 120%;
+    margin-left: -2rem;
+  }
+
+  .about__second {
+    margin-left: -2rem;
+    width: 130%;
+  }
+
+  .about__second_first {
+    width: 130%;
+  }
+
+  .about__third {
+    width: 143%;
+    margin-left: -3rem;
+  }
+
+  .about__fourth {
+    width: 143%;
+    margin-left: -3rem;
+  }
+
+  .about__journey {
+    width: 125%;
+    margin-left: -2rem;
+  }
+
+  .about__journey > h2 {
+    margin-left: 3rem;
+  }
+
+  .about__journey > span {
+    margin-left: 3.3rem;
+  }
+
+  .about__journey > p {
+    width: 120%;
+    margin-left: -1.3rem;
+  }
+
+  .about__journey-right {
+    width: 125%;
+    margin-left: -2rem;
+  }
+
+  .about__journey-right > h3 {
+    margin-left: -1.5rem;
+  }
+
+  .aboutImage {
+    width: 143%;
+    margin-left: -3rem;
+  }
+
+  .about__mission {
+    width: 130%;
+    margin-left: -2rem;
+  }
+
+  .about__mission_left {
+    width: 270%;
+    margin-left: -6rem;
+  }
+
+  .about__mission_left > h2 {
+    font-size: 30px;
+  }
+
+  .about__mission_left > p {
+    width: 130%;
+    margin-left: -2rem;
+  }
+
+  .about__mission_right {
+    width: 230%;
+    margin-left: -2.5 rem;
+  }
+
+  .about__mission_right > img {
+    width: 120%;
+    margin-left: -4rem;
+  }
+
+  .about__grid {
+    width: 130%;
+    margin-left: -2 rem;
+  }
+
+  .about__Imagess {
+    width: 130%;
+    margin-left: -2rem;
+  }
+
+  .about__sustainability {
+    width: 130%;
+    margin-left: -2rem;
+  }
+
+  .about__sustainability > p {
+    width: 170%;
+    margin-left: -3.5rem;
+  }
+
+  .about__bussiness {
+    width: 130%;
+  }
+
+  .about__bussiness > p {
+    margin-left: -2.5rem;
+  }
+
+  .about__business_secon {
+    width: 130%;
+    margin-left: -2rem;
+  }
+}
